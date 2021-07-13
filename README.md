@@ -1,5 +1,5 @@
 # qclog
-区分development和prod ; 线上console.log打印为...
+区分development和prod ; 开发环境console.log正常打印，生产打印为...
 
 ## install
 ```
