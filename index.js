@@ -10,7 +10,6 @@ class QCLog{
         return QCLog.instance;
     }
     log(data){
-        console.log("this.env",this.env);
         if(this.env == "development"){
             console.log(data);
         }else{
