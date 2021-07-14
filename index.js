@@ -9,17 +9,17 @@ class QCLog{
         }
         return QCLog.instance;
     }
-    log(data){
+    log(){
         if(this.env == "development"){
-            console.log(data);
+            console.log(...arguments);
         }else{
             console.log("...");
         }
     }
 }
-export default QCLog;
+export default QCLog; 
 
 
 
 /* let log = QCLog.getInstance("development");
-log.log("1234556"); */
+log.log("----",[1,2,3]);  */
